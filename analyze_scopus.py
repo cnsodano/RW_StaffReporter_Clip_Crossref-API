@@ -1,3 +1,4 @@
+""" Use to find number of self citations in a Scopus citation report exported csv""" 
 import pandas as pd
 AUTHOR: str = "Verma"
 
