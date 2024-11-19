@@ -1,5 +1,6 @@
-""" A naive script to pull each unique container-title (journal title) from all works published by a given member in 
-Crossref. Heavily relies on starter code written by habanero package's author Scott Campbell here: https://github.com/sckott/habanero/tree/main.
+""" A naive script to analyze the publicate date distribution from all works published by a given member in 
+Crossref. Allows one to analyze if there are heavy "dumps" of hundreds of articles on a single day, or unusual changes in 
+publishing rate. Heavily relies on starter code written by habanero package's author Scott Campbell here: https://github.com/sckott/habanero/tree/main.
 Scott Campbell's website: https://scottchamberlain.info/
 
 
