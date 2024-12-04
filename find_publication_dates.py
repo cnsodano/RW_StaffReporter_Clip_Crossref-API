@@ -26,8 +26,8 @@ Crossref(mailto = "csodano@unc.edu")  # Replace with your email address
 ## Set an additional user-agent string, more details @ https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service under "Etiquette" header
 # Crossref(ua_string = "foo bar")  # Replace "foo bar"
 
-#CROSSREF_ISSN: str = "2313-7851" ## TODO set to the ISSN of the journal you are checking
-CROSSREF_ISSN: str ="1092-910X" ## TODO set to the ISSN of the journal you are checking
+#CROSSREF_ISSN: str = "2313-7851" ## To check RLJ
+CROSSREF_ISSN: str ="1092-910X" ## TODO set to the ISSN of the journal you are checking. 1092-910X is ANVI
 
 def return_dates(res):
     print(sum([ len(z['message']['items']) for z in res ]))  # Confirming the # of documents published by member in Crossref's system
