@@ -9,3 +9,6 @@ javascript:var url = `https://api.crossref.org/journals/${prompt("insert ISSN (A
 
 ## Disclaimer
 If you are not a member of Retraction Watch and you have stumbled upon this code, do not take make any hasty assumptions about the author whose publications are being investigated in this codebase without reading my article, as research misconduct is a very weighty claim and accordingly requires strong and reliable evidence; this cannot be considered sufficient
+
+## Note on csv
+This is the result exporting via scopus all the citations an author has received that are indexed by scopus.  
